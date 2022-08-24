@@ -44,9 +44,8 @@ client.on("message", message => {
     let noargs = new Discord.MessageEmbed()
     .setTitle(`${client.user.username}`)
     .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
-    .setDescription(`\`📬 : Send To Gamma:\`
+    .setDescription(`\`📬 : Send To Delta:\`
     
-
      `);
     if (!args) return message.channel.send(message.author, noargs);
     message.guild.members.cache.filter(mem => mem.roles.cache.has(role_id))
@@ -71,7 +70,7 @@ client.on("message", message => {
         message.author.displayAvatarURL({ dynamic: true })
       )
       .setDescription(
-        `📬 : Send To Gamma: `
+        `📬 : Send To Delta: `
       )
       .setTimestamp()
       .setFooter(
@@ -79,7 +78,7 @@ client.on("message", message => {
         message.author.displayAvatarURL({ dynamic: true })
       );
     message.channel
-      .send(`📬 : Send To Gamma:`)
+      .send(`📬 : Send To Delta:`)
 
       
   }
