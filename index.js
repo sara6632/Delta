@@ -14,7 +14,7 @@ var prefix = "!"; ///ضع هنا البريفيكس الخاص ببوتك
 ///Put Here Prefix Of Ur Bot
 var status = [`predator vip`, `サラ`];
 const botowner = ["979072089929691177"];
-let role_id = "1003025175236845598";
+let role_id = "1012071777372999851";
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`);
